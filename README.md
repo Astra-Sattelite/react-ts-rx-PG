@@ -7,8 +7,8 @@ bootstrap
 
 # Roots
 
-/
-/todo
+/\
+/todo\
 /counter
 
 # Getting Started with Create React App
