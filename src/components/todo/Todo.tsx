@@ -27,16 +27,10 @@ export function Todo() {
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => dispatch(setText(e.target.value))}
           />
         </Form.Group>
-        <Button variant="primary"
-          onClick={() => 
-            dispatchAll([setId(uuidv4()), addElem(elem)])
-            // [setId(uuidv4()), addElem(elem)].map(action => dispatch(action))
-          }
-        >
+        <Button variant="primary" onClick={() => dispatchAll([setId(uuidv4()), addElem(elem)])}>
           Submit
         </Button>
       </Form>
-      <br/>
       {elems.map(x =>
         <Card style={{ width: '18rem' }} key={x.id}>
           <Card.Body>

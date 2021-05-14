@@ -15,8 +15,11 @@ function App() {
           <Route path="/todo">
             <Todo />
           </Route>
-          <Route path="">
+          <Route path="/counter">
             <Counter />
+          </Route>
+          <Route path="">
+            <h1>Wow such blank page, omg</h1>
           </Route>
         </Switch>
       </Router>
