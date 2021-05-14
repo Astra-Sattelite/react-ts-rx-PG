@@ -1,6 +1,6 @@
-import React from 'react'
 import { Counter } from './components/counter/Counter'
 import { Todo } from './components/todo/Todo'
+import { Landing } from './components/landing/Landing'
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,7 +19,7 @@ function App() {
             <Counter />
           </Route>
           <Route path="">
-            <h1>Wow such blank page, omg</h1>
+            <Landing />
           </Route>
         </Switch>
       </Router>
