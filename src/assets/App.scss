@@ -1,0 +1,11 @@
+$trySass: 24px;
+
+div {
+  .btn {
+    font-size: 22px;
+  }
+}
+
+.sassClass {
+  font-size: $trySass;
+}
